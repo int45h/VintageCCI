@@ -154,20 +154,7 @@ namespace VintageCCI
         // Called on server and client
         public override void Start(ICoreAPI api)
         {
-            var _event = new Event();
-            try
-            {
-                
-                Mod.Logger.Notification("event loaded");
-                return;
-            }
-            catch (System.Exception e)
-            {
-                Mod.Logger.Notification($"Failed to load event: {e.ToString()}");
-            }
-
-            string ev_str = _event.ToString();
-            Mod.Logger.Notification(ev_str);
+            
         }
 
         public override void StartClientSide(ICoreClientAPI api)
