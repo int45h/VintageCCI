@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "vintagecci",
+    "name": "VintageCCI",
+    "authors": [
+        "int_45h"
+    ],
+    "description": "WIP mod to add CCI to Vintage Story",
+    "version": "1.20.12",
+    "dependencies": {
+        "game": ""
+    }
+}
